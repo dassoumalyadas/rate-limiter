@@ -34,3 +34,4 @@ class SlidingWindowCounterRateLimiterTest {
         assertFalse(result.allowed(), "Requesting 10 permits from a 5-permit window must fail");
     }
 }
+

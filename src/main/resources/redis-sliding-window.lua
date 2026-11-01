@@ -49,3 +49,4 @@ redis.call("EXPIRE", current_key, window_size * 2)
 local remaining = max_requests - (estimated_requests + cost)
 -- Return array: [1 = ALLOWED, remaining_tokens, retry_after = 0]
 return {1, remaining, 0}
+

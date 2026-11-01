@@ -77,3 +77,4 @@ class TokenBucketRateLimiterTest {
         assertEquals(capacity, allowedCount.get(), "Must permit exactly bucket capacity under race conditions");
     }
 }
+

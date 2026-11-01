@@ -37,3 +37,4 @@ public record RateLimitResult(boolean allowed, long remainingTokens, long retryA
         return Math.max(1, retryAfterNanos / 1_000_000L);
     }
 }
+

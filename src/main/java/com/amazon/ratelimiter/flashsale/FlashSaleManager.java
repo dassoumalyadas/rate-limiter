@@ -111,3 +111,4 @@ public class FlashSaleManager {
     public int getRemainingStock() { return remainingStock.get(); }
     public String getProductId() { return productId; }
 }
+
